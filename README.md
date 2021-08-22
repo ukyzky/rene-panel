@@ -2,6 +2,12 @@
 
 Make Noise René (Classic) Mechanical Keyswitch DIY Panel
 
+## v1.0 image
+
+![Front image](renepanel_front_v1.0.jpg?raw=true "Front image")
+
+![Back image](renepanel_back_v1.0.jpg?raw=true "Back image")
+
 ## Bom
 
 - Cherry MX keyswitch x18
