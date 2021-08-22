@@ -1,0 +1,474 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GNDA #PWR0120
+U 1 1 60F20472
+P 8350 8450
+F 0 "#PWR0120" H 8350 8200 50  0001 C CNN
+F 1 "GNDA" H 8355 8277 50  0000 C CNN
+F 2 "" H 8350 8450 50  0001 C CNN
+F 3 "" H 8350 8450 50  0001 C CNN
+	1    8350 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L cherrymx:CherryMX_LED SW1
+U 1 1 6114E947
+P 3700 8300
+F 0 "SW1" H 3700 8635 50  0000 C CNN
+F 1 "SW_Push_LED" H 3700 8544 50  0000 C CNN
+F 2 "cherrymx:CherryMX_1.00u_LED" H 3700 8600 50  0001 C CNN
+F 3 "~" H 3700 8600 50  0001 C CNN
+	1    3700 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x12_Female J1
+U 1 1 611875C0
+P 8600 3650
+F 0 "J1" H 8628 3626 50  0000 L CNN
+F 1 "Conn_01x12_Female" H 8628 3535 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical_SMD_Pin1Right" H 8600 3650 50  0001 C CNN
+F 3 "~" H 8600 3650 50  0001 C CNN
+	1    8600 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x12_Female J2
+U 1 1 611882CD
+P 8900 7550
+F 0 "J2" H 8928 7526 50  0000 L CNN
+F 1 "Conn_01x12_Female" H 8928 7435 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical_SMD_Pin1Right" H 8900 7550 50  0001 C CNN
+F 3 "~" H 8900 7550 50  0001 C CNN
+	1    8900 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L cherrymx:CherryMX_LED SW2
+U 1 1 6118C5B1
+P 4700 9050
+F 0 "SW2" H 4700 9385 50  0000 C CNN
+F 1 "SW_Push_LED" H 4700 9294 50  0000 C CNN
+F 2 "cherrymx:CherryMX_1.00u_LED" H 4700 9350 50  0001 C CNN
+F 3 "~" H 4700 9350 50  0001 C CNN
+	1    4700 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L cherrymx:CherryMX_LED SW3
+U 1 1 6118CECE
+P 5600 9800
+F 0 "SW3" H 5600 10135 50  0000 C CNN
+F 1 "SW_Push_LED" H 5600 10044 50  0000 C CNN
+F 2 "cherrymx:CherryMX_1.00u_LED" H 5600 10100 50  0001 C CNN
+F 3 "~" H 5600 10100 50  0001 C CNN
+	1    5600 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L cherrymx:CherryMX_LED SW4
+U 1 1 6118CED8
+P 6350 10500
+F 0 "SW4" H 6350 10835 50  0000 C CNN
+F 1 "SW_Push_LED" H 6350 10744 50  0000 C CNN
+F 2 "cherrymx:CherryMX_1.00u_LED" H 6350 10800 50  0001 C CNN
+F 3 "~" H 6350 10800 50  0001 C CNN
+	1    6350 10500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 7550 3900 7550
+Wire Wire Line
+	3900 7550 3900 8250
+Wire Wire Line
+	8700 7650 4900 7650
+Wire Wire Line
+	4900 7650 4900 9000
+Wire Wire Line
+	8700 7750 5800 7750
+Wire Wire Line
+	5800 7750 5800 9750
+Wire Wire Line
+	8700 7850 6550 7850
+Wire Wire Line
+	6550 7850 6550 10450
+Wire Wire Line
+	8700 7950 8350 7950
+Wire Wire Line
+	8350 7950 8350 8050
+Wire Wire Line
+	8700 8050 8350 8050
+Connection ~ 8350 8050
+Wire Wire Line
+	8350 8050 8350 8300
+Wire Wire Line
+	8350 8300 8000 8300
+Wire Wire Line
+	8000 8300 8000 11000
+Wire Wire Line
+	8000 11000 2850 11000
+Wire Wire Line
+	2850 8250 3500 8250
+Connection ~ 8350 8300
+Wire Wire Line
+	8350 8300 8350 8450
+Wire Wire Line
+	4500 9000 2850 9000
+Wire Wire Line
+	2850 8250 2850 9000
+Connection ~ 2850 9000
+Wire Wire Line
+	2850 9000 2850 9750
+Wire Wire Line
+	5400 9750 2850 9750
+Connection ~ 2850 9750
+Wire Wire Line
+	6150 10450 2850 10450
+Wire Wire Line
+	2850 9750 2850 10450
+Connection ~ 2850 10450
+Wire Wire Line
+	2850 10450 2850 11000
+$Comp
+L cherrymx:CherryMX_LED SW5
+U 1 1 6119F1FB
+P 3800 6100
+F 0 "SW5" H 3800 6435 50  0000 C CNN
+F 1 "SW_Push_LED" H 3800 6344 50  0000 C CNN
+F 2 "cherrymx:CherryMX_1.00u_LED" H 3800 6400 50  0001 C CNN
+F 3 "~" H 3800 6400 50  0001 C CNN
+	1    3800 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L cherrymx:CherryMX_LED SW6
+U 1 1 611A0058
+P 4650 6400
+F 0 "SW6" H 4650 6735 50  0000 C CNN
+F 1 "SW_Push_LED" H 4650 6644 50  0000 C CNN
+F 2 "cherrymx:CherryMX_1.00u_LED" H 4650 6700 50  0001 C CNN
+F 3 "~" H 4650 6700 50  0001 C CNN
+	1    4650 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L cherrymx:CherryMX_LED SW7
+U 1 1 611A092E
+P 5450 6700
+F 0 "SW7" H 5450 7035 50  0000 C CNN
+F 1 "SW_Push_LED" H 5450 6944 50  0000 C CNN
+F 2 "cherrymx:CherryMX_1.00u_LED" H 5450 7000 50  0001 C CNN
+F 3 "~" H 5450 7000 50  0001 C CNN
+	1    5450 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L cherrymx:CherryMX_LED SW8
+U 1 1 611A1524
+P 6450 7000
+F 0 "SW8" H 6450 7335 50  0000 C CNN
+F 1 "SW_Push_LED" H 6450 7244 50  0000 C CNN
+F 2 "cherrymx:CherryMX_1.00u_LED" H 6450 7300 50  0001 C CNN
+F 3 "~" H 6450 7300 50  0001 C CNN
+	1    6450 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L cherrymx:CherryMX_LED SW9
+U 1 1 611A21E6
+P 3800 4100
+F 0 "SW9" H 3800 4435 50  0000 C CNN
+F 1 "SW_Push_LED" H 3800 4344 50  0000 C CNN
+F 2 "cherrymx:CherryMX_1.00u_LED" H 3800 4400 50  0001 C CNN
+F 3 "~" H 3800 4400 50  0001 C CNN
+	1    3800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L cherrymx:CherryMX_LED SW10
+U 1 1 611A21F0
+P 4700 4400
+F 0 "SW10" H 4700 4735 50  0000 C CNN
+F 1 "SW_Push_LED" H 4700 4644 50  0000 C CNN
+F 2 "cherrymx:CherryMX_1.00u_LED" H 4700 4700 50  0001 C CNN
+F 3 "~" H 4700 4700 50  0001 C CNN
+	1    4700 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L cherrymx:CherryMX_LED SW11
+U 1 1 611A21FA
+P 5500 4700
+F 0 "SW11" H 5500 5035 50  0000 C CNN
+F 1 "SW_Push_LED" H 5500 4944 50  0000 C CNN
+F 2 "cherrymx:CherryMX_1.00u_LED" H 5500 5000 50  0001 C CNN
+F 3 "~" H 5500 5000 50  0001 C CNN
+	1    5500 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L cherrymx:CherryMX_LED SW12
+U 1 1 611A2204
+P 6500 5000
+F 0 "SW12" H 6500 5335 50  0000 C CNN
+F 1 "SW_Push_LED" H 6500 5244 50  0000 C CNN
+F 2 "cherrymx:CherryMX_1.00u_LED" H 6500 5300 50  0001 C CNN
+F 3 "~" H 6500 5300 50  0001 C CNN
+	1    6500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L cherrymx:CherryMX_LED SW13
+U 1 1 611A502A
+P 3800 2000
+F 0 "SW13" H 3800 2335 50  0000 C CNN
+F 1 "SW_Push_LED" H 3800 2244 50  0000 C CNN
+F 2 "cherrymx:CherryMX_1.00u_LED" H 3800 2300 50  0001 C CNN
+F 3 "~" H 3800 2300 50  0001 C CNN
+	1    3800 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L cherrymx:CherryMX_LED SW14
+U 1 1 611A5034
+P 4700 2300
+F 0 "SW14" H 4700 2635 50  0000 C CNN
+F 1 "SW_Push_LED" H 4700 2544 50  0000 C CNN
+F 2 "cherrymx:CherryMX_1.00u_LED" H 4700 2600 50  0001 C CNN
+F 3 "~" H 4700 2600 50  0001 C CNN
+	1    4700 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L cherrymx:CherryMX_LED SW15
+U 1 1 611A503E
+P 5500 2600
+F 0 "SW15" H 5500 2935 50  0000 C CNN
+F 1 "SW_Push_LED" H 5500 2844 50  0000 C CNN
+F 2 "cherrymx:CherryMX_1.00u_LED" H 5500 2900 50  0001 C CNN
+F 3 "~" H 5500 2900 50  0001 C CNN
+	1    5500 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L cherrymx:CherryMX_LED SW16
+U 1 1 611A5048
+P 6500 2900
+F 0 "SW16" H 6500 3235 50  0000 C CNN
+F 1 "SW_Push_LED" H 6500 3144 50  0000 C CNN
+F 2 "cherrymx:CherryMX_1.00u_LED" H 6500 3200 50  0001 C CNN
+F 3 "~" H 6500 3200 50  0001 C CNN
+	1    6500 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L cherrymx:CherryMX_LED SW17
+U 1 1 611AFB50
+P 5600 950
+F 0 "SW17" H 5600 1285 50  0000 C CNN
+F 1 "SW_Push_LED" H 5600 1194 50  0000 C CNN
+F 2 "cherrymx:CherryMX_1.00u_LED" H 5600 1250 50  0001 C CNN
+F 3 "~" H 5600 1250 50  0001 C CNN
+	1    5600 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L cherrymx:CherryMX_LED SW18
+U 1 1 611AFB5A
+P 6600 1250
+F 0 "SW18" H 6600 1585 50  0000 C CNN
+F 1 "SW_Push_LED" H 6600 1494 50  0000 C CNN
+F 2 "cherrymx:CherryMX_1.00u_LED" H 6600 1550 50  0001 C CNN
+F 3 "~" H 6600 1550 50  0001 C CNN
+	1    6600 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 7150 8300 7150
+Wire Wire Line
+	8300 7150 8300 6050
+Wire Wire Line
+	8300 6050 4000 6050
+Wire Wire Line
+	8700 7250 8150 7250
+Wire Wire Line
+	8150 7250 8150 6350
+Wire Wire Line
+	8150 6350 4850 6350
+Wire Wire Line
+	8700 7350 8000 7350
+Wire Wire Line
+	8000 7350 8000 6650
+Wire Wire Line
+	8000 6650 5650 6650
+Wire Wire Line
+	8700 7450 7850 7450
+Wire Wire Line
+	7850 7450 7850 6950
+Wire Wire Line
+	7850 6950 6650 6950
+Wire Wire Line
+	3600 6050 2850 6050
+Connection ~ 2850 8250
+Wire Wire Line
+	4450 6350 2850 6350
+Wire Wire Line
+	2850 6050 2850 6350
+Connection ~ 2850 6350
+Wire Wire Line
+	5250 6650 2850 6650
+Wire Wire Line
+	2850 6350 2850 6650
+Connection ~ 2850 6650
+Wire Wire Line
+	2850 6650 2850 6950
+Wire Wire Line
+	6250 6950 2850 6950
+Connection ~ 2850 6950
+Wire Wire Line
+	2850 6950 2850 8250
+Wire Wire Line
+	8400 3950 8050 3950
+Wire Wire Line
+	8050 3950 8050 4950
+Wire Wire Line
+	8050 4950 6700 4950
+Wire Wire Line
+	8400 3850 5700 3850
+Wire Wire Line
+	5700 3850 5700 4650
+Wire Wire Line
+	8400 3750 4900 3750
+Wire Wire Line
+	4900 3750 4900 4350
+Wire Wire Line
+	8400 3650 4000 3650
+Wire Wire Line
+	4000 3650 4000 4050
+Wire Wire Line
+	8400 3250 8100 3250
+Wire Wire Line
+	8100 3250 8100 1950
+Wire Wire Line
+	8100 1950 4000 1950
+Wire Wire Line
+	4900 2250 7950 2250
+Wire Wire Line
+	7950 2250 7950 3350
+Wire Wire Line
+	7950 3350 8400 3350
+Wire Wire Line
+	8400 3450 7750 3450
+Wire Wire Line
+	7750 3450 7750 2550
+Wire Wire Line
+	7750 2550 5700 2550
+Wire Wire Line
+	6700 2850 7550 2850
+Wire Wire Line
+	7550 2850 7550 3550
+Wire Wire Line
+	7550 3550 8400 3550
+Wire Wire Line
+	5800 900  6100 900 
+Wire Wire Line
+	6100 900  6100 300 
+Wire Wire Line
+	6100 300  3100 300 
+Wire Wire Line
+	3100 300  3100 5300
+Wire Wire Line
+	3100 5300 8150 5300
+Wire Wire Line
+	8150 5300 8150 4050
+Wire Wire Line
+	8150 4050 8400 4050
+Wire Wire Line
+	6800 1200 7200 1200
+Wire Wire Line
+	7200 1200 7200 150 
+Wire Wire Line
+	7200 150  2900 150 
+Wire Wire Line
+	2900 150  2900 5500
+Wire Wire Line
+	2900 5500 8250 5500
+Wire Wire Line
+	8250 5500 8250 4150
+Wire Wire Line
+	8250 4150 8400 4150
+$Comp
+L power:GNDA #PWR?
+U 1 1 611C5DF5
+P 3300 5000
+F 0 "#PWR?" H 3300 4750 50  0001 C CNN
+F 1 "GNDA" H 3305 4827 50  0000 C CNN
+F 2 "" H 3300 5000 50  0001 C CNN
+F 3 "" H 3300 5000 50  0001 C CNN
+	1    3300 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 900  3300 900 
+Wire Wire Line
+	3300 900  3300 1200
+Wire Wire Line
+	6400 1200 3300 1200
+Connection ~ 3300 1200
+Wire Wire Line
+	3300 1200 3300 1950
+Wire Wire Line
+	3600 1950 3300 1950
+Connection ~ 3300 1950
+Wire Wire Line
+	3300 1950 3300 2250
+Wire Wire Line
+	4500 2250 3300 2250
+Connection ~ 3300 2250
+Wire Wire Line
+	3300 2250 3300 2550
+Wire Wire Line
+	5300 2550 3300 2550
+Connection ~ 3300 2550
+Wire Wire Line
+	3300 2550 3300 2850
+Wire Wire Line
+	6300 2850 3300 2850
+Connection ~ 3300 2850
+Wire Wire Line
+	3300 2850 3300 4050
+Wire Wire Line
+	3600 4050 3300 4050
+Connection ~ 3300 4050
+Wire Wire Line
+	3300 4050 3300 4350
+Wire Wire Line
+	4500 4350 3300 4350
+Connection ~ 3300 4350
+Wire Wire Line
+	3300 4350 3300 4650
+Wire Wire Line
+	5300 4650 3300 4650
+Connection ~ 3300 4650
+Wire Wire Line
+	3300 4650 3300 4950
+Wire Wire Line
+	6300 4950 3300 4950
+Connection ~ 3300 4950
+Wire Wire Line
+	3300 4950 3300 5000
+$EndSCHEMATC
